@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>TS Super Cardboard</title>
+    <!--  (c) 2015,2016 CA Technologies.  All Rights Reserved. -->
+    <!--  Build Date: Tue Mar 29 2016 18:33:03 GMT-0700 (PDT) -->
+    
+    <script type="text/javascript">
+        var APP_BUILD_DATE = "Tue Mar 29 2016 18:33:03 GMT-0700 (PDT)";
+        var CHECKSUM = [%= checksum %];
+    </script>
+    
+    <script type="text/javascript" src="/apps/2.0/sdk.js"></script>
+
+    <script type="text/javascript">
+        Rally.onReady(function() {
+            
+            
+               Rally.launchApp('TSSuperCardboard', {
+                   name: 'TS Super Cardboard'
+               });
+        });
+    </script>
+    
+    <style type="text/css">
+
+div.ts_workproduct_card {
+    padding: 2px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.rui-card { 
+    margin: 10px 5px 5px 5px;
+}
+
+.x-border-layout-ct {
+    background-color: #fff;
+}
+
+div.actions {
+    color: #337ec6;
+    text-align: right;
+}
+
+td {
+    text-align: left;
+    font-weight: normal;
+}
+
+table {
+    display: table;
+    border-collapse: separate;
+    border-spacing: 2px;
+    border-color: grey;
+}
+
+div.ts_task_card {
+    margin: 2px;
+    padding: 2px;
+    width: 50px;
+    height:35px;
+    text-align: center;
+    font-size: 9px;
+    border: 1px solid black;
+    float: left;
+    overflow: hidden;
+}
+
+.ts_task_card.blocked {
+    border: 2px solid red !important;
+}
+
+.ts_task_card.defect {
+    border-radius: 15px;
+}
+
+.ts-editor-field-label {
+    font-size: 14px;
+    font-weight: bold;
+    text-align: right;
+    background-color: #eee;
+}
+
+.ts-editor-field-contents {
+    font-size: 14px;
+}
+    </style>
+
+</head>
+<body></body>
+</html>
